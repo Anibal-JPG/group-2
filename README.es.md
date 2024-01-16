@@ -66,6 +66,6 @@ Este y otros proyectos son usados para [aprender a programar](https://4geeksacad
 
 Anibal-navBar.
 Alejandro Manco-First Heading.
-Marvin Sojo-Contact.
+Marvin Sojo-Contact-footer
 sebafretes-Porfolio.
 Juan k- second heading o services.

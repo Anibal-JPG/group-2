@@ -1,29 +1,42 @@
 <!-- your html code here -->
-<div class="fatherSize bg-white">
-    <h2>Contact</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit ipsa tempora voluptates similique dolore vel fuga aperiam, molestias illum soluta laboriosam alias, repellat itaque ullam aliquid voluptatum dignissimos fugit.</p>
-    <form>
-        <div class="row justify-content-center mb-3">
-          <div class="col-sm-2">
-            <label for="inputEmail3" class="col-sm-12 col-form-label text-end"><strong>Your E-mail</strong></label>
-          </div>
-          <div class="col-sm-4">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Your email">
-          </div>
+<div class="contact my-5 text-dark.bg-gradient">
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">    
+          <h2 class="fw-bold fs-1">Contact</h2>
+          <p class="fs-5">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta feliz euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-sm-2">
-            <label for="exampleFormControlTextarea1" class="col-sm-12 col-form-label text-end"><strong>Your message</strong></label>
+      </div>
+
+      <div class="row justify-content-center">
+
+        <form class="col-lg-7 border py-3">
+
+          <div class="row justify-content-end mb-3">
+            <div class="col-md-3">
+              <label for="inputEmail3" class="col-sm-12 col-form-label text-end fw-bold">Your E-mail</label>
+            </div>
+            <div class="col-md-9">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Your email" required>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please enter your message here..."></textarea>
+
+          <div class="row justify-content-end">          
+            <div class="col-md-3">
+              <label for="exampleFormControlTextarea1" class="col-sm-12 col-form-label text-end fw-bold">Your message</label>
+            </div>
+            <div class="col-md-9">
+              <textarea class="form-control" id="exampleFormControlTextarea1" style="height: 8rem" placeholder="Please enter your message here..." required></textarea>
+            </div>
           </div>
+
           <div class="row justify-content-center mt-3">
-          <div class="col-sm-6">
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-primary" type="button">Submit</button>
+            <div class="col-md-12">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </div>
           </div>
-          </div>
-        </div>       
-        </div>
+        </form> 
+      </div>
 </div>
